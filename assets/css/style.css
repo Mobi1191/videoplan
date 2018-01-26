@@ -1,0 +1,489 @@
+.logo-part{
+    margin: 0!important;
+}
+
+.logo-part img{
+    margin: 10px;
+}
+
+.main-title h2{
+    text-align: center;
+}
+
+#profile-tab{
+
+}
+
+#profile-tab .upload-logo-preview
+{
+    width: 135px;
+    padding: 5px 15px 5px 0px;
+    border: solid 1px lightgray;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 768px)  {
+   
+}
+
+#profile-tab .upload-logo-preview img{
+    width: 98px;
+    height: 98px;
+    border: solid 1px lightgray;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+#profile-tab .upload-logo-preview .btn{
+   
+    margin: 10px;
+}
+
+#logoimagefile{
+    display: none;
+}
+
+#profile-tab .input-part
+{
+    border: solid 1px lightgray;
+    padding: 5px;
+}
+
+#profile-tab .input-part #profile-form .validation-label{
+    padding-left: 0;
+    text-align: center;
+}
+
+
+#loading-part{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background: #000;
+    z-index: 1000;
+    display: none;
+}
+
+#loading-part #loading-message{
+    display: flex;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.validation-label{
+    color: red;
+}
+
+.custom-progress-bar{
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    border: solid 0px #888;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #ecebf0, #d2d7da, #bfc2c7);
+    display: inline-flex;
+    width: 100%;
+}
+
+.custom-progress-bar .progress{
+    height: 15px;    
+    margin-top: 0px;
+    margin-bottom: 0;
+    background:linear-gradient(to bottom, #838383, #bababa);
+    width: calc(100% - 50px);
+}
+
+.custom-progress-bar  label {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+.plan-item{
+    border: solid 2px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.plan-item .plan-account-number{
+    margin: 3px;
+    border: solid 2px #000;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #9d0a10;
+    color: #ffffff;
+}
+
+.upgrade-item{
+    border: solid 2px #8ac3fa;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.upgrade-item .upgrade-header{
+   /* border: solid 1px #888;
+    border-radius: 10px;
+    background: #49bd90;
+    color: #ffffff;*/
+    position: relative;
+}
+
+.upgrade-item .upgrade-header .background-img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.upgrade-item .upgrade-header .arrow-blinking-gif{
+    position: absolute;
+    left: 5px;
+    width: 6%;
+    top: 33%;
+}
+
+.upgrade-item .upgrade-header .arrow-checkbox{
+    position: absolute;
+    left: 8%;
+    top: 33%;
+    width: 5%;
+    cursor: pointer;
+}
+
+.upgrade-item .upgrade-header i{
+    color: red;
+    -webkit-animation-name: blinking; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: blinking;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.upgrade-item .upgrade-header .yellow-blink{
+    color: yellow;
+    -webkit-animation-name: blinking_yellow; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: blinking_yellow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;   
+}
+
+@-webkit-keyframes blinking {
+    0%   {color: red;}
+    50%  {color: white;}
+    100% {color: red;}
+}
+
+/* Standard syntax */
+@keyframes blinking {
+    0%   {color: red;}
+    50%  {color: white;}
+    100% {color: red;}
+}
+
+@-webkit-keyframes blinking_yellow {
+    0%   {color: yellow;}
+    50%  {color: white;}
+    100% {color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes blinking_yellow {
+    0%   {color: yellow;}
+    50%  {color: white;}
+    100% {color: yellow;}
+}
+.upgrade-item .upgrade-body{
+    padding-top: 20px;
+    text-align: left;
+}
+
+.nav li a{
+    padding: 10px 15px!important;
+    font-size: 25px;
+}
+
+.custom-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.custom-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.select-video-add-btn{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+#upload-tab .select-video-icon{
+    width: 100%;
+}
+
+.select-video-div{
+    border: solid 1px lightgray;
+    padding: 10px; 
+    padding-bottom: 0;
+}
+
+#upload-tab .step2-div-col{
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 130px;
+}
+
+#upload-tab .step2-div{
+    border: solid 1px lightgray;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#upload-tab .step2-div .add-btn{
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+#upload-tab .step2-div .custom-progress-bar{
+    width: 50%;
+}
+
+#upload-tab .step3-div{
+    border: solid 1px lightgray;
+    padding: 10px;
+    padding-bottom: 0;   
+}
+
+#upload-tab .step3-div .add-btn{
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+#upload-tab .step3-div .custom-progress-bar{
+    width: 50%;
+}
+
+#upload-tab .step4-div{
+    border: solid 1px lightgray;
+    padding: 10px;
+    padding-bottom: 0;      
+}
+
+.upload-steps-div{
+    margin-left: -120px;
+}
+
+#plan-tab .result-amount-div {
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.active-btn{
+    width: 100%;
+    cursor: pointer;
+   }
+
+#list-tab .box-item{
+    margin-top: 15px;
+    border: solid 1px lightgray; 
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px)  {
+    .select-video-add-btn{
+        width: 100%;
+    }
+
+    .select-video-progress{
+        width: 100%;
+    }
+
+    #upload-tab .select-video-icon{
+        width: 100%;
+    }
+
+   /* #upload-tab .select-vido-dropdown
+    {
+        width: 50%;
+    }*/
+
+    .select-video-div{
+        margin-right: 23%;
+        margin-left: 23%;
+    }
+
+    .upload-steps-div{
+        margin-left: -15px;
+    }
+
+     #upload-tab .step2-div-col{
+        margin-bottom: 30px;
+    }
+    
+    .checkmark {
+        top: 8px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .upgrade-item .upgrade-header .arrow-blinking-gif{
+        top: 33%;
+    }
+
+    .upgrade-item .upgrade-header .arrow-checkbox{
+        left: 8%;
+        top: 33%;
+    }
+
+     #profile-tab .upload-logo-preview{
+        width: 135px;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 700px)  {
+    #upload-tab .step2-div{
+        margin-right: 23%;
+        margin-left: 23%;
+    }
+    #upload-tab .step2-div .add-btn{
+        width: 100%;
+    }
+
+    #upload-tab .step2-div .custom-progress-bar{
+        width: 100%;
+    }
+ 
+    #upload-tab .step3-div{
+        margin-right: 23%;
+        margin-left: 23%;
+    }
+    #upload-tab .step3-div .add-btn{
+        width: 100%;
+    }
+
+    #upload-tab .step3-div .custom-progress-bar{
+        width: 100%;
+    }
+
+    #upload-tab .step4-div{
+        margin-right: 23%;
+        margin-left: 23%;
+    }
+
+    .upload-steps-div{
+        margin-left: -15px;
+    }
+
+    .plan-item{
+       /* margin-left: 15%;
+        margin-right: 15%;*/
+    }
+
+   .upgrade-item .upgrade-header h2{
+        font-size: 12px;
+   }
+
+   
+
+   .upgrade-item .upgrade-header .arrow-blinking-gif{
+        top: 33%;
+    }
+
+    .upgrade-item .upgrade-header .arrow-checkbox{
+        left: 8%;
+        top: 33%;
+    }
+
+    #list-tab .box-item{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #list-tab .list-tab-description{
+        margin-left: 10%;
+    }
+
+     #profile-tab .upload-logo-preview{
+        width: 135px;
+        margin-left: calc(50% - 67px);
+    }
+
+    #profile-tab .input-part
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
