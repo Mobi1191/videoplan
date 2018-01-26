@@ -83,9 +83,3 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
-
-define('GOOGLE_CLIENT_ID', '669987019355-nblje62oh725cr73q9jj0fklu3g6up70.apps.googleusercontent.com');
-define('GOOGLE_CLIENT_SECRET', 'AHJanVTzRoZihJXBoCwbH8jc');
-define('GOOGLE_REDIRECT_URI', 'https://videodup.com/member/index.php/main/googlelogin');
-define('GOOGLE_API_KEY', 'AIzaSyAYonE3P2TeVhqqrmc7g6v8h7tQhjnUarU');
-

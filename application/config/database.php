@@ -78,11 +78,6 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-	
-	// 'hostname' => 'db716847372.db.1and1.com',
-	// 'username' => 'dbo716847372',
-	// 'password' => '3030Million',
-	
 	'database' => 'db716847372',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
